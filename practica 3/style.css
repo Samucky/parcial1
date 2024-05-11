@@ -1,0 +1,164 @@
+body{
+    height: auto;
+    width: auto;
+    background-image: url('https://i.pinimg.com/originals/4b/0d/1c/4b0d1cca5d962fce1e51af2b7e79f68a.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+h1{
+    margin-bottom: 12px;
+    width: 350PX;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 600px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #eeecf146;
+
+}
+h2{
+    margin-bottom: 12px;
+    width: 350PX;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 600px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #eeecf146;
+
+}
+.datosPersonales
+{
+    margin-bottom: 12px;
+    width: 640px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    left: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #eeecf146;
+
+}
+.chambas
+{
+    margin-bottom: 12px;
+    width: 640px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    left: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #eeecf146;
+
+}
+.hobbies
+{
+    margin-bottom: 12px;
+    width: 640px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    left: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    bottom: 110px;
+    background-color: #eeecf146;
+
+}
+.capacidades
+{
+    margin-bottom: 12px;
+    width: 640px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    left: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    bottom: 120px;
+    background-color: #eeecf146;
+
+}
+.escuelas
+{
+    margin-bottom: 12px;
+    width: 200px;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 180px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    bottom: 255px;
+    background-color: #eeecf146;
+
+
+}
+legend{
+    background-color: #5b11caa1;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.box {
+    background-color: #eeecf146;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    bottom: 450px;
+    width: 50px;
+    height: 50p;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.box2 {
+    background-color: #eeecf146;
+
+        margin-bottom: 12px;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        left: px;
+        padding: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+    bottom: 55px;
+    
+}
+legend{
+    background-color: #74b49b;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}

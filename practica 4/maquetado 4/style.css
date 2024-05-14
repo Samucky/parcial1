@@ -1,0 +1,127 @@
+.foreverWisconsin {
+    width: 33%;
+    height: 33%;
+}
+
+.secondImage {
+    width: 20%;
+    height: 20%;
+}
+
+.thirdImage {
+    width: 37%;
+    height: 37%;
+}
+
+.fourthImage {
+    width: 55%;
+    height: 55%;
+}
+
+.fifthImage {
+    width: 20%;
+    height: 20%;
+}
+
+.sixthImage {
+    width: 40%;
+    height: 40%;
+}
+
+.sevenImage {
+    width: 40%;
+    height: 40%;
+}
+
+.eightImage {
+    width: 55%;
+    height: 55%;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+p {
+    color: rgb(161, 166, 171);
+}
+
+.first_Image,
+.second_image,
+.third_image,
+.fourth_image,
+.fifth_image,
+.sixth_image,
+.seven_image,
+.eight_image {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.first_Image {
+    position: absolute;
+    left: 5%;
+}
+
+.second_image {
+    top: -2%;
+    position: absolute;
+    left: 30%;
+}
+
+.third_image {
+    top: -2%;
+    position: absolute;
+    left: 50%;
+}
+
+.fourth_image {
+    top: 1.4%;
+    position: absolute;
+    left: 70%;
+}
+
+.fifth_image {
+    top: 59%;
+    position: absolute;
+    left: 5%;
+}
+
+.sixth_image {
+    top: 59%;
+    position: absolute;
+    left: 30%;
+}
+
+.seven_image {
+    top: 59%;
+    position: absolute;
+    left: 50%;
+}
+
+.eight_image {
+    position: absolute;
+    top: 61.5%;
+    left: 70%;
+}
+
+.first_Image:hover,
+.second_image:hover,
+.third_image:hover,
+.fourth_image:hover,
+.fifth_image:hover,
+.sixth_image:hover,
+.seven_image:hover,
+.eight_image:hover {
+}

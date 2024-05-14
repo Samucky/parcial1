@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=y, initial-scale=1.0">
+    <title>Regístrate al evento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>    
+</head>
+<body>
+    <h1 class="cabeza">Regístrate al evento</h1>
+    <p>El evento se llevará a cabo el día jueves 16 a las 10:00 en el parque de la Melitón.
+        <br> Con direccion escrita: C. 105 524B, Melitón Salazar, 97269 Mérida, Yuc.
+    </p>
+    <div class="mapouter">
+        <iframe id="map-canvas" class="map_part" width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=C.%20105%20524B,%20Melitón%20Salazar,%2097269%20Mérida,%20Yuc.&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+    </div>
+    <div>
+        <h1 class="cabeza2">Completa tus datos para confirmar tu asistencia:</h1>
+        <form id="Formulario" >
+            <label for="nombre" class="name" >Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required> <br>
+            <label for="edad" class="age">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div id="answer"></div>
+
+    
+</body>
+</html>

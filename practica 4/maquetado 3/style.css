@@ -1,0 +1,115 @@
+.left{
+    position: absolute;
+    left: auto;
+}
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: relative;
+    right: 10px;
+    top: 0px;
+}
+a {
+    padding-right: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #ccc;
+  
+}
+
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 39%;
+    top: 25%;
+    color: #8e0c5c;
+    font-size: 100px;
+    font-family: Forte;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+
+}
+.searchs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    width: 600px;
+    height: 40px;
+    background-color: #fefcfd00;
+    border-radius: 10px;
+    border: 1px solid#ffffff;
+    
+
+}
+.navfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    left: 34%;
+}
+.pfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}
+.bsearch {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #474444;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    font-family: Forte;
+
+}
+
+
+.bsearch:hover, .feel:hover {
+    background-color: #636060;
+}
+.feel{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #474444;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-family: Forte;
+
+    
+}
+body {
+    background-color: #1a1a1a; /* Color de fondo oscuro */
+    color: #ffffff; /* Color del texto en modo oscuro */
+}

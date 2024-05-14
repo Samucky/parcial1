@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Audiowide, cursive;
+}
+
+body {
+    background-color: rgb(84, 84, 84);
+}
+
+#text {
+    font-size: 35px;
+    color: rgb(0, 255, 255);
+    background-color: rgb(50, 50, 50);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+h1 {
+    color: rgb(0, 255, 255);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35%;
+}
+
+.cabeza2 {
+    left: 20%;
+}
+
+p {
+    color: #fff;
+    justify-content: center;
+    align-items: justify;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    font-size: 20px;
+}
+
+.map_part {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    top: 15%;
+    left: 27%;
+}
+
+.name,
+.age {
+    color: #fff;
+}
+
+.name {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    left: 40%;
+    bottom: 17%;
+    font-size: 25px;
+}
+
+.age {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    left: 42%;
+    bottom: 8%;
+    font-size: 25px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    bottom: 15%;
+    left: 50%;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    bottom: 10%;
+    left: 50%;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff7f0e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    left: 70%;
+    font-size: 25px;
+    bottom: 1%;
+}
